@@ -1,0 +1,68 @@
+* {  
+    padding: 0;  
+    margin: 0;  
+    box-sizing: border-box;  
+    font-family: "Montserrat", sans-serif; 
+   }
+
+section {  
+    background: #673AB7;  /* fallback for old browsers */
+    background: linear-gradient(to right, #111536, #161A3F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image:url('https://cdn.osxdaily.com/wp-content/uploads/2020/10/macos-big-sur-wallpaper-2-scaled.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100vh;  
+    width: 100%;  
+    display: flex;  
+    align-items: center;  
+    justify-content: center;  
+}  
+.container {  
+    min-width: 400px;  
+    
+    border-radius: 8px;  
+    overflow: hidden;  
+}  
+.display {  
+    
+    background-color: rgb(150, 150, 150);
+    opacity: 50%;
+    height: 70px;  
+    width: 100%;  
+    text-align: right;  
+    padding: 20px;  
+    font-size: 30px;  
+    position: relative;  
+}  
+.buttons {  
+    
+    margin-top: 10px;
+    color: whitesmoke;  
+    display: grid;  
+    grid-template: repeat(4, 1fr) / repeat(4, 1fr);
+    gap: 10px;  
+}  
+.number, .operation, .equal {  
+    background-color: rgb(74, 128, 141);  
+    opacity: 80%;
+    border: 0.5px solid rgba(92, 92, 92, 0.137);  
+    display: inline-block;  
+    height: 100px;  
+    width: 100%;  
+    display: flex;  
+    align-items: center;  
+    justify-content: center;  
+    font-size: 30px;  
+    cursor: pointer;  
+}  
+.button:hover {  
+    background-color: rgb(30, 43, 46);  
+}  
+.equal{
+    background-color: rgb(51, 141, 70);  
+}
+
+.operation{
+    background-color: rgb(82, 76, 131);  
+}
